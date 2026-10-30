@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="50%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#334155" stroke-width="4" />
+
+  <!-- USB Metal Connector -->
+  <rect x="196" y="76" width="120" height="96" rx="12" fill="url(#metal)" stroke="#64748b" stroke-width="6" />
+  <!-- USB connector cutouts -->
+  <rect x="220" y="104" width="28" height="32" rx="4" fill="#0f172a" />
+  <rect x="264" y="104" width="28" height="32" rx="4" fill="#0f172a" />
+
+  <!-- USB Body -->
+  <rect x="166" y="160" width="180" height="240" rx="36" fill="url(#blueGrad)" stroke="#60a5fa" stroke-width="6" />
+
+  <!-- Rufus Activity LED -->
+  <circle cx="256" cy="208" r="10" fill="#22c55e" stroke="#16a34a" stroke-width="2" />
+
+  <!-- USB Symbol on Body -->
+  <path d="M256 256v90M256 256l-32 30v20M256 276l32 30v20" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="256" cy="250" r="14" fill="#ffffff" />
+  <circle cx="224" cy="336" r="10" fill="#ffffff" />
+  <rect x="278" y="326" width="20" height="20" rx="2" fill="#ffffff" />
+
+  <!-- Lanyard / keyring loop -->
+  <path d="M226 400c0 24 14 44 30 44s30-20 30-44" fill="none" stroke="#475569" stroke-width="12" stroke-linecap="round" />
+</svg>
